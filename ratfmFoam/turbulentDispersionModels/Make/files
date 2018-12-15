@@ -1,0 +1,7 @@
+
+turbulentDispersionModel/turbulentDispersionModel.C
+turbulentDispersionModel/newTurbulentDispersionModel.C
+noTurbulentDispersion/noTurbulentDispersion.C
+Zuber/Zuber.C
+
+LIB = $(FOAM_USER_LIBBIN)/libturbulentDispersionModels

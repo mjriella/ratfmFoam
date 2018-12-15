@@ -1,0 +1,14 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+set -x
+
+
+wmake libso phaseModel
+wmake libso interfacialModels
+wmake libso turbulentDispersionModels
+wmake libso kineticTheoryModels
+wmake libso multiphaseTurbulenceModels
+
+wmake
+
+# ----------------------------------------------------------------- end-of-file

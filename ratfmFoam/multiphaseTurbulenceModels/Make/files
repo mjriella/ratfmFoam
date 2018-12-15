@@ -1,0 +1,11 @@
+multiphaseTurbulenceModel/multiphaseTurbulenceModel.C
+
+particleTurbulence/particleTurbulence/particleTurbulence.C
+particleTurbulence/dispersedkEpsilon/dispersedkEpsilon.C
+particleTurbulence/dispersedv2f/dispersedv2f.C
+
+fluidTurbulence/fluidTurbulence/fluidTurbulence.C
+fluidTurbulence/kEpsilon/kEpsilon.C
+fluidTurbulence/v2f/v2f.C
+
+LIB = $(FOAM_USER_LIBBIN)/libmultiphaseTurbulenceModels
